@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "651560049209",
+    "firebase_url": "https://sapiapp-5a8e2.firebaseio.com",
+    "project_id": "sapiapp-5a8e2",
+    "storage_bucket": "sapiapp-5a8e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651560049209:android:b1ff9ab78db87c62",
+        "android_client_info": {
+          "package_name": "com.example.boti.sapiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651560049209-6pfe9nssmpekp9squ9esol1us9cckqcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boti.sapiapp",
+            "certificate_hash": "3c94a1463a36adae4801fde2de8ae17bd710ff55"
+          }
+        },
+        {
+          "client_id": "651560049209-asnq3mki44q4h17gb8ncgh83c7o6oj18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boti.sapiapp",
+            "certificate_hash": "86383949fa95a0834e0f74e7429a1efc5325cbe9"
+          }
+        },
+        {
+          "client_id": "651560049209-q7oun1qam16ebtkm7q4861m92an71ue4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj4GWaUyrfO5XMcltbplZmBNxAn3IXPO0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651560049209-q7oun1qam16ebtkm7q4861m92an71ue4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

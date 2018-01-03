@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boti.sapiapp.Registration">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginTop="20dp"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="20dp"
+        android:hint="E-mail"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/addImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:text="Add Profile picture"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:padding="20dp"
+        android:text="Sign up"
+        android:layout_below="@+id/addImageButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/gotoLoginButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:text="Already registered? Login HERE!"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark" />
+</RelativeLayout>

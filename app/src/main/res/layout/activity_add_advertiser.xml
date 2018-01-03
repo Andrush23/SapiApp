@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context="com.example.boti.sapiapp.AddAdvertiser">
+
+        <EditText
+            android:id="@+id/titleEt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:hint="@string/title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:textSize="20sp"
+            android:background="@color/lightgray"
+            android:inputType="textCapSentences">
+            </EditText>
+
+        <EditText
+            android:id="@+id/descriptionEt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:hint="@string/description"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:layout_below="@id/titleEt"
+            android:textSize="20sp"
+            android:background="@color/lightgray"
+            android:inputType="textMultiLine|textCapSentences">
+        </EditText>
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/image"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="3dp"
+            android:layout_below="@id/descriptionEt"
+            android:textSize="15sp"
+            android:background="@color/gray"
+            android:textAlignment="center">
+        </Button>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/send"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="3dp"
+            android:layout_below="@id/imageButton"
+            android:textSize="15sp"
+            android:background="@color/gray"
+            android:textAlignment="center">
+        </Button>
+
+    </RelativeLayout>
+
+</ScrollView>
